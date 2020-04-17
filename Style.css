@@ -1,0 +1,83 @@
+*{
+    font-family: 'Ibarra Real Nova', serif;
+    letter-spacing: 1px;
+}
+body{
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 100%;
+    margin: 0%;
+    background-image: url("../Project1/burj_khalifa_aka_burj_dubai-1920x1200.jpg");
+}
+figure img{
+    border-radius: 100%;
+    width: 190px;
+    height: 190px;
+    margin: 0;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0);
+}
+main{
+    color: rgb(0, 0, 0);
+}
+section{
+    background-color:rgba(255, 255, 255, 0.514);
+    border-radius: 7%;
+    width: 300px;
+    padding: 25px 7px;
+    margin: 99px auto; 
+    text-align: center;
+    box-shadow: 2px 2px 20px black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bolder;
+}
+p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+i{
+    color: rgb(0, 0, 0);
+    border: 1px double rgb(0, 0, 0);
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    line-height: 49.5px !important;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+}
+.fa-facebook-square:hover{
+    background-color: rgb(66, 105, 189);
+    color: white;
+    transform: rotate(360deg);
+    transition: ease-in 0.5s;
+}
+.fa-instagram:hover{
+    transform: rotate(360deg);
+    transition: ease-in 0.5s;
+    display: inline-block;
+    color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.fa-linkedin-square:hover{
+    color: white;
+    background-color: rgb(40,103,178);
+    transform: rotate(360deg);
+    transition: ease-in 0.5s;
+}
+.fa-google:hover{
+    transform: rotate(360deg);
+    transition: ease-in 0.5s;
+    color: white;
+    background: rgb(35, 70, 126);
+    background: radial-gradient(circle at 30% 107%, rgb(35, 70, 126) 0%, rgb(35, 70, 126) 5%, rgb(241, 194, 105) 45%,rgb(238, 76, 61) 60%,rgb(15,157,88) 90%);
+}
